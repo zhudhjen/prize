@@ -1,0 +1,166 @@
+@font-face {
+	font-family:		'Black Ops One';
+	font-style:			normal;
+	font-weight:		400;
+	src:				local('Black Ops One'), local('BlackOpsOne-Regular'), url(blackops.woff) format('woff');
+}
+
+body {
+	margin: 			auto;
+	background-color:	#eff4fd;
+	color:				#6495ed;
+	width:				100%;
+	text-align:			center;
+	font-family: 		"MS Yahei",  微软雅黑,  "Sans Serif";
+}
+
+#num {
+	position: 			relative;
+	/*margin-left: 		20px;*/
+	margin: 			auto auto 0 auto;
+	width: 				406px;
+}
+
+#titlebox {
+    border:         	3px solid #6495ed;
+    width: 				400px;
+    margin: 			20px auto auto auto;
+}
+
+#info {
+	border: 			none;
+	height: 			82px;
+	width: 				364px;
+	margin: 			10px 10px 10px 10px;
+	font-size: 			20px;
+	font-family: 		"MS Yahei",  微软雅黑,  "Sans Serif";
+	background-color:	#eff4fd;
+	color: 				#bbb;
+	resize:				none;
+}
+
+#info:focus {
+	background-color: 	#fdfdfe;
+}
+
+#numbox {
+	margin: 	 		20px auto;
+	width: 				406px;
+	height: 			190px;
+	position: 			relative;
+	background-color: 	#6495ed;
+}
+
+#nump {
+	margin: 			auto;
+	width: 				360px;
+}
+
+#num1, #num2, #num3 {
+	margin: 			0;
+	float: 				left;
+	width: 				120px;
+	font-family:		'Black Ops One',	'monospace';
+	font-size:			160px;
+	color: 				white;
+	text-align:			center;
+}
+
+#ctlbox {
+	margin: 			20px auto auto auto;
+	position: 			relative;
+	/*top: 				8em;*/
+	font-family: 		"MS Yahei",  微软雅黑,  "Sans Serif";
+	font-size: 			24px;
+    border: 			3px solid #6495ed;
+    width: 				400px;
+}
+
+#anssheel {
+	padding: 			20px;
+	position:			absolute;
+	top: 				0;
+	bottom: 			0;
+	width:				580px;
+    border: 			3px solid #6495ed;	
+    opacity: 			100%;
+    visibility: 		hidden;
+    overflow-y: 		scroll;
+}
+
+div.answers {
+	font-family:		'Black Ops One', "MS Yahei",  微软雅黑,  "Sans Serif";
+	font-size:			32px;
+	line-height: 		50px;
+    /*border: 			3px solid #6495ed;	*/
+    margin: 0;
+	/*box-shadow:			0 0 2px 2px;*/
+	transition:			all	0.3s;
+	-webkit-transition:	all	0.5s;
+}
+
+p.prizes {
+	font-family: 		"MS Yahei",  微软雅黑,  "Sans Serif";
+	font-size: 			30px;
+	font-weight: 		400px;
+	margin: 			0;
+	border: 			none;
+}
+
+.answers:hover {
+	opacity:	0.7;
+}
+
+input {
+	background-color:	white;
+	border-style:		none;
+	font-size:			1em;
+	font-family: 		"MS Yahei",  微软雅黑,  "Sans Serif";
+	padding-left: 		10px;
+    margin:         	0 0.3em;
+    border:         	2px solid #6495ed;
+	transition:			all	0.5s;
+	-webkit-transition:	all	0.5s;
+}
+
+#total {
+    width:          	6em;
+}
+
+#cnt {
+    width:          	4em;
+}
+
+#prize {
+    width:          	8em;
+}
+
+button {
+	background-color:	#6495ed;
+	border-style:		none;
+	color: 				white;
+	font-family: 		"MS Yahei",  微软雅黑,  "Sans Serif";
+	transition:			all	0.5s;
+	-webkit-transition:	all	0.5s;
+}
+
+#start {
+	font-size: 			25px;
+	margin-top: 		20px;
+	width: 				406px;
+	height: 			60px;
+}
+
+button:hover {
+	background-color:	#92B4F2;
+}
+
+button:active {
+	background-color:	rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+	position:			fixed;
+	width:				100%;
+	bottom:				0px;
+}
