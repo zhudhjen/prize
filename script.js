@@ -33,6 +33,7 @@ function start(){
                 // $('#ans').prepend('<p>');
                 $('#ans').prepend('<p class="prizes">'+$('input#prize').val()+'</p>');
                 $("#start").removeAttr('disabled');
+                $("input").removeAttr('disabled');
                 return;
             }
             if (total >= $('input#total').val()){
@@ -61,6 +62,7 @@ function start(){
             $("#num3").html(rand[2]);                
         }, 80);
         $("#start").html('停止');
+        $("input").prop('disabled',true);
     } else {
         if (need_new){
             $('#anssheel').prepend('<div id="ans" class="answers"></div>');
